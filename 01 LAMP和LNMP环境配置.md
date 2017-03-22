@@ -9,6 +9,8 @@ apt-cache search nginx
 
 安装nginx
 ```
+// 搜索是否存在nginx这款软件
+apt-cache search nginx
 // 安装nginx
 apt-get install nginx
 // 查看nginx版本
