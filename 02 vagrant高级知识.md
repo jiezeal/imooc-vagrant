@@ -11,3 +11,4 @@ config.vm.network "forwarded_port", guest:9000, host:9000
 ```
 config.vm.synced_folder "E:/demo", '/demo', :smb => true
 ```
+注：设置共享目录，必须设置私有网络
