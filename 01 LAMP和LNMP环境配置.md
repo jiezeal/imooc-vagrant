@@ -58,8 +58,10 @@ apt-get install php7.0-cgi php7.0-fpm
 查看apache是否正在运行
 ```
 ps -ef | grep apache
+ps -ef | grep nginx
 ```
 
+为了让apache和nginx可以同时运行，因此将apache的端口修改成9000
 
 
 
