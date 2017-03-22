@@ -32,3 +32,11 @@ curl -I 'http://127.0.0.1'
 ```
 apt-get install mysql-server mysql-client
 ```
+
+
+
+
+
+
+
+
