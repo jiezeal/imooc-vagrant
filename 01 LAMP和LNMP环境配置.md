@@ -45,13 +45,15 @@ php -v
 apt-get install php7.0-curl php7.0-gd php7.0-json php7.0-mysql php7.0-mcrypt php7.0-mbstring
 ```
 
-安装apache2支持php的模块
+安装apache2的php模块
 ```
 apt-get install libapache2-mod-php7.0
 ```
 
-
-
+安装nginx fastcgi
+```
+apt-get install php7.0-cgi php7.0-fpm
+```
 
 
 
