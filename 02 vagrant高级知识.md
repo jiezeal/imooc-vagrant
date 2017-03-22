@@ -13,3 +13,4 @@ config.vm.synced_folder "E:/demo", '/demo', :smb => true
 config.vm.network "private_network", ip: "192.168.100.126"
 ```
 注：设置共享目录，必须设置私有网络。
+
