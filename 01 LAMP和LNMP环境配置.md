@@ -40,6 +40,15 @@ apt-get install php7.0-cli
 php -v
 ```
 
+安装php扩展
+```
+apt-get install php7.0-curl php7.0-gd php7.0-json php7.0-mysql php7.0-mcrypt php7.0-mbstring
+```
+
+安装apache2支持php的模块
+```
+apt-get install libapache2-mod-php7.0
+```
 
 
 
