@@ -82,8 +82,8 @@ vi /var/www/html/index.html
 ```
 Hello World
 ```
-http://192.168.100.126/nginx.html
-http://192.168.100.126:9000/apache.html
+http://192.168.100.126
+http://192.168.100.126:9000
 
 
 
