@@ -8,4 +8,17 @@ apt-cache search nginx
 ```
 
 安装nginx
+```
+apt-get install nginx
+```
+
+查看nginx是否安装成功
+```
+nginx -v
+```
+
+测试nginx
+```
+curl -I 'http://127.0.0.1'
+```
 
