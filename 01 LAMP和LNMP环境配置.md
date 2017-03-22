@@ -82,11 +82,6 @@ vi /var/www/html/nginx.html
 ```
 nginx
 ```
-
-vi /var/www/html/apache.html
-```
-apache
-```
 http://192.168.100.126/nginx.html
 http://192.168.100.126:9000/apache.html
 
