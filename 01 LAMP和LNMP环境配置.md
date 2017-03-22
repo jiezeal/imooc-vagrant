@@ -13,7 +13,8 @@ apt-cache search nginx
 apt-get install nginx
 // 查看nginx版本
 nginx -v
-// 
+// 测试nginx
+curl -I 'http://127.0.0.1'
 ```
 
 查看nginx是否安装成功
