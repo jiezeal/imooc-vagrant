@@ -22,4 +22,10 @@ curl -I 'http://127.0.0.1'
 安装apache
 ```
 apt-get install apache2
+apache2 -v
+/etc/init.d/nginx stop
+/etc/init.d/apache2 start
+curl -I 'http://127.0.0.1'
 ```
+
+安装mysql
