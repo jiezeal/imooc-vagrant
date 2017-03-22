@@ -71,6 +71,8 @@ vi /etc/apache2/ports.conf
 ```
 /etc/init.d/apache2 start
 /etc/init.d/nginx start
+ps -ef | grep apache
+ps -ef | grep nginx
 ```
 
 
