@@ -80,7 +80,7 @@ curl -I 'http://127.0.0.1:9000'
 通过浏览器访问
 vi /var/www/html/nginx.html
 ```
-hello nginx
+nginx
 ```
 
 
