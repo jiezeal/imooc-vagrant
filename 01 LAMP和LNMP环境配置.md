@@ -7,4 +7,5 @@
 apt-cache search nginx
 ```
 
+安装nginx
 
