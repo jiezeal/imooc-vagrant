@@ -6,6 +6,7 @@ vi Vagrantfile
 config.vm.network "forwarded_port", guest:80, host:80
 config.vm.network "forwarded_port", guest:9000, host:9000
 ```
+上一节，通过浏览器就可以像这样访问
 
 
 添加共享目录（默认已有一个vagrant的共享目录）
