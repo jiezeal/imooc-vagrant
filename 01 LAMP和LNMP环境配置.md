@@ -55,6 +55,10 @@ apt-get install libapache2-mod-php7.0
 apt-get install php7.0-cgi php7.0-fpm
 ```
 
+查看apache是否正在运行
+```
+ps -ef | grep apache
+```
 
 
 
