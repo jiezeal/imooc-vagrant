@@ -73,6 +73,8 @@ vi /etc/apache2/ports.conf
 /etc/init.d/nginx start
 ps -ef | grep apache
 ps -ef | grep nginx
+curl -I 'http://127.0.0.1'
+curl -I 'http://127.0.0.1:9000'
 ```
 
 
