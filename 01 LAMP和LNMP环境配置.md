@@ -77,7 +77,7 @@ curl -I 'http://127.0.0.1'
 curl -I 'http://127.0.0.1:9000'
 ```
 
-
+因为nginx和apache的默认主目录都是/var/www/html，所以将nginx的主目录重新设置为/www
 
 
 
