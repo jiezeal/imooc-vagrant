@@ -78,9 +78,9 @@ curl -I 'http://127.0.0.1:9000'
 ```
 
 通过浏览器访问
-vi /var/www/html/nginx.html
+vi /var/www/html/index.html
 ```
-nginx
+Hello World
 ```
 http://192.168.100.126/nginx.html
 http://192.168.100.126:9000/apache.html
