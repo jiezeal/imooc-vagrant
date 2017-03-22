@@ -17,16 +17,6 @@ nginx -v
 curl -I 'http://127.0.0.1'
 ```
 
-查看nginx是否安装成功
-```
-nginx -v
-```
-
-测试nginx
-```
-curl -I 'http://127.0.0.1'
-```
-
 安装apache
 ```
 apt-get install apache2
