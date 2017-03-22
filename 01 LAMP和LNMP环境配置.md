@@ -62,8 +62,12 @@ ps -ef | grep nginx
 ```
 
 为了让apache和nginx可以同时运行，因此将apache的端口修改成9000
+```
 vi /etc/apache2/ports.conf
 /etc/init.d/apache2 restart
+```
+
+
 
 
 
