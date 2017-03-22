@@ -68,7 +68,10 @@ vi /etc/apache2/ports.conf
 ```
 
 启动apache/nginx
-
+```
+/etc/init.d/apache2 start
+/etc/init.d/nginx start
+```
 
 
 
