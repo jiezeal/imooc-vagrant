@@ -83,6 +83,11 @@ vi /var/www/html/nginx.html
 nginx
 ```
 
+vi /var/www/html/apache.html
+```
+apache
+```
+
 
 
 
