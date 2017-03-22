@@ -34,6 +34,11 @@ apt-get install mysql-server mysql-client
 mysql -V
 ```
 
+安装php
+```
+apt-get install php7.0-cli
+php -v
+```
 
 
 
