@@ -57,6 +57,7 @@ vi 000-default.conf 将第一行改为
 ![](image/screenshot_1490242653637.png)
 
 cd /etc/nginx/sites-available
+vi laravel-demo.conf
 ```
 server {
        listen 80;
