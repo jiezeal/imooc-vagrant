@@ -84,7 +84,7 @@ vi /etc/hosts
 ```
 127.0.1.1       laravel-demo.com
 ```
-
+curl -I "http://laravel-demo.com"
 
 
 
