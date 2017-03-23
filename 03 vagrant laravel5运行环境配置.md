@@ -56,6 +56,7 @@ vi 000-default.conf 将第一行改为
 
 ![](image/screenshot_1490242653637.png)
 
+虚拟主机配置：
 
 
 
