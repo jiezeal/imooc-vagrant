@@ -19,7 +19,8 @@ vi /etc/apache2/ports.conf
 Listen 8080
 ```
 
-cp /etc/apache2/sites-available/000-default.conf 000-default.conf.bak
+cd /etc/apache2/sites-available
+cp 000-default.conf 000-default.conf.bak
 vi 000-default.conf 将第一行改为
 ```
 <VirtualHost *:8080>
