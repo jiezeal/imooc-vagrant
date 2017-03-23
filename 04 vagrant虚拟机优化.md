@@ -45,5 +45,8 @@ end
 Nginx优化
 cd /etc/nginx/
 vi nginx.conf
+```
+sendfile off
+```
 
 Apache优化
