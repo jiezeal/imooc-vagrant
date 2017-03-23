@@ -1,6 +1,9 @@
 #vagrant虚拟机优化
 
 虚拟机名称
+```
+config.vm.hostname = "test"
+```
 
 虚拟机主机名
 配置虚拟机内存和CPU
