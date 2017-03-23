@@ -15,6 +15,7 @@ listen = 127.0.0.1:9000
 ```
 
 cd /etc/nginx/sites-available
+cp default default.bak
 
 
 vi /etc/apache2/ports.conf
