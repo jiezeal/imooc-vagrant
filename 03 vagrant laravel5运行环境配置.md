@@ -27,6 +27,7 @@ location ~ \.php$ {
     # fastcgi_pass unix:/run/php/php7.0-fpm.sock;
 }
 ```
+/etc/init.d/nginx restart
 
 cd /var/www/html
 vi index.php
