@@ -53,6 +53,7 @@ vi 000-default.conf 将第一行改为
 ```
 /etc/init.d/apache2 restart
 通过浏览器访问：http://localhost:8080/
+
 ![](image/screenshot_1490242653637.png)
 
 
