@@ -14,6 +14,8 @@ vi /etc/php/7.0/fpm/pool.d/www.conf
 listen = 127.0.0.1:9000
 ```
 
+
+
 vi /etc/apache2/ports.conf
 ```
 Listen 8080
@@ -25,6 +27,8 @@ vi 000-default.conf 将第一行改为
 ```
 <VirtualHost *:8080>
 ```
+
+
 
 
 
