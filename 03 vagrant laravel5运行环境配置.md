@@ -88,7 +88,7 @@ curl -I "http://laravel-demo.com"
 
 cd /etc/apache2/sites-available
 cp 000-default.conf laravel-demo.conf
-vi laravel-demo.conf
+vi laravel-demo.conf  将对应选项更改成如下：
 ```
 ServerName laravel-demo.com
 ServerAdmin zhulinjie_cool@126.com
