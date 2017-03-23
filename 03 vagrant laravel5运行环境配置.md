@@ -87,7 +87,7 @@ vi /etc/hosts
 curl -I "http://laravel-demo.com"
 
 cd /etc/apache2/sites-available
-
+cp 000-default.conf laravel-demo.conf
 
 
 
