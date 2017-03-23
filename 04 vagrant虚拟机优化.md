@@ -48,7 +48,7 @@ vi nginx.conf
 ```
 sendfile off
 ```
-
+/etc/init.d/nginx restart
 
 Apache优化
 注：apache2这个版本无需优化
