@@ -86,7 +86,7 @@ vi /etc/hosts
 ```
 curl -I "http://laravel-demo.com"
 
-
+/etc/apache2/sites-available
 
 
 
