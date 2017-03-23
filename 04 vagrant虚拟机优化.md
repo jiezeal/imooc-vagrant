@@ -21,8 +21,24 @@ vb.cpus = 1
 ```
 
 完整示例
-复制一份Vagrantfile为Vagrantfile.bak
+先复制一份Vagrantfile为Vagrantfile.bak作为备份
 Vagrantfile
+```
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu"
+  config.vm.network "forwarded_port", guest:80, host:80
+  config.vm.network "forwarded_port", guest:8080, host:8080
+  config.vm.synced_folder "E:/demo", '/demo', :smb => true
+  config.vm.network "private_network", ip: "192.168.100.126"
+  config.vm.hostname = "test"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "ubuntu_test"
+    vb.memory = "512"
+    vb.cpus = 1
+  end
+end
+```
 
 
 Nginx优化
