@@ -15,3 +15,6 @@ listen = 127.0.0.1:9000
 ```
 
 vi /etc/apache2/ports.conf
+```
+Listen 8080
+```
