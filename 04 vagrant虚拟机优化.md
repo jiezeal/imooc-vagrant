@@ -50,3 +50,4 @@ sendfile off
 ```
 
 Apache优化
+注：因为apache2这个版本已经
