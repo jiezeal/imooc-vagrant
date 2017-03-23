@@ -14,6 +14,7 @@ vi /etc/php/7.0/fpm/pool.d/www.conf
 listen = 127.0.0.1:9000
 ```
 
+cd /etc/nginx/sites-available
 
 
 vi /etc/apache2/ports.conf
