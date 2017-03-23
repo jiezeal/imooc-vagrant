@@ -21,6 +21,8 @@ vb.cpus = 1
 ```
 
 完整示例
+复制一份Vagrantfile为Vagrantfile.bak
+编辑Vagrantfile
 
 
 Nginx优化
