@@ -30,7 +30,9 @@ location ~ \.php$ {
 
 cd /var/www/html
 vi index.php
-
+```
+<?php phpinfo(); ?>
+```
 
 
 vi /etc/apache2/ports.conf
