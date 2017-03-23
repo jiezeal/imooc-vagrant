@@ -49,5 +49,6 @@ vi nginx.conf
 sendfile off
 ```
 
+
 Apache优化
 注：apache2这个版本无需优化
