@@ -93,7 +93,6 @@ vi laravel-demo.conf
 ServerName laravel-demo.com
 ServerAdmin zhulinjie_cool@126.com
 DocumentRoot /vagrant/laravel/public
-
 ```
 /etc/init.d/apache2 restart
 通过浏览器访问：http://laravel-demo.com:8080/
