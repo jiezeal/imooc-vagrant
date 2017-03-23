@@ -40,6 +40,5 @@ Vagrant.configure("2") do |config|
 end
 ```
 
-
 Nginx优化
 Apache优化
