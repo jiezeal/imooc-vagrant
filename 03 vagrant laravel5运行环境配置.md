@@ -125,7 +125,7 @@ vi laravel-demo.conf
 /etc/init.d/apache2 restart
 通过浏览器访问：http://laravel-demo.com:8080/
 ![](image/screenshot_1490243301004.png)
-
+curl -I "http://laravel-demo.com:8080"
 
 
 
