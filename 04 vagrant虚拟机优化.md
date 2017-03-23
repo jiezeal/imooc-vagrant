@@ -40,5 +40,7 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+优化vagrant同步目录功能
+官方文档说明：[https://www.vagrantup.com/docs/synced-folders/virtualbox.html](https://www.vagrantup.com/docs/synced-folders/virtualbox.html)  
 Nginx优化
 Apache优化
