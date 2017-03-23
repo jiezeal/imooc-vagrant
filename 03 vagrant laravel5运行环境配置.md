@@ -122,7 +122,8 @@ vi laravel-demo.conf
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ```
-
+/etc/init.d/apache2 restart
+通过浏览器访问：http://laravel-demo.com:8080/
 
 
 
