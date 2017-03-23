@@ -38,6 +38,8 @@ vi index.php
 ```
 通过浏览器访问：http://localhost/
 
+![](image/screenshot_1490241080980.png)
+
 vi /etc/apache2/ports.conf
 ```
 Listen 8080
