@@ -20,6 +20,8 @@ vb.memory = "512"
 vb.cpus = 1
 ```
 
+完整示例
+
 
 Nginx优化
 Apache优化
