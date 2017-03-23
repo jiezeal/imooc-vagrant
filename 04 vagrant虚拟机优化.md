@@ -44,5 +44,6 @@ end
 官方文档说明：[https://www.vagrantup.com/docs/synced-folders/virtualbox.html](https://www.vagrantup.com/docs/synced-folders/virtualbox.html)  
 Nginx优化
 cd /etc/nginx/
+vi nginx.conf
 
 Apache优化
