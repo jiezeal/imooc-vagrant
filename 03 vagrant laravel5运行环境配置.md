@@ -18,6 +18,8 @@ cd /etc/nginx/sites-available
 cp default default.bak
 vi default
 ```
+index index.php index.html index.htm index.nginx-debian.html;
+
 location ~ \.php$ {
     include snippets/fastcgi-php.conf;
 
