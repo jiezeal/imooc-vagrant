@@ -11,5 +11,8 @@ vb.name = "ubuntu_test"
 ```
 
 配置虚拟机内存和CPU
+```
+vb.memory = "512"
+```
 Nginx优化
 Apache优化
