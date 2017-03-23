@@ -80,6 +80,7 @@ server {
 ```
 /etc/init.d/nginx restart
 通过浏览器访问：http://laravel-demo.com/
+![](image/screenshot_1490242933787.png)
 
 
 
