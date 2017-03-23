@@ -19,5 +19,6 @@ vb.memory = "512"
 ```
 vb.cpus = 1
 ```
+
 Nginx优化
 Apache优化
