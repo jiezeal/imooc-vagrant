@@ -28,7 +28,7 @@ location ~ \.php$ {
 }
 ```
 
-
+cd /var/www/html
 
 
 vi /etc/apache2/ports.conf
