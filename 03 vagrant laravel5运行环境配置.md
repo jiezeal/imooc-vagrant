@@ -36,7 +36,7 @@ vi index.php
 ```
 <?php phpinfo(); ?>
 ```
-
+通过浏览器访问：
 
 
 
