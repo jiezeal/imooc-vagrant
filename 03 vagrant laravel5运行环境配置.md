@@ -101,3 +101,7 @@ DocumentRoot /vagrant/laravel/public
 curl -I "http://laravel-demo.com:8080"
 
 搭建weiyuyan环境
+vi /etc/hosts
+```
+127.0.0.1       api.4000669696.com
+```
