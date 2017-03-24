@@ -13,6 +13,7 @@ vi /etc/php/7.0/fpm/pool.d/www.conf
 ```
 listen = 127.0.0.1:9000
 ```
+/etc/init.d/php7.0-fpm restart
 
 cd /etc/nginx/sites-available
 cp default default.bak
