@@ -99,3 +99,4 @@ DocumentRoot /vagrant/laravel/public
 通过浏览器访问：http://laravel-demo.com:8080/
 ![](image/screenshot_1490243301004.png)
 curl -I "http://laravel-demo.com:8080"
+
