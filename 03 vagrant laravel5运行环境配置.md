@@ -135,4 +135,26 @@ server {
 ```
 
 vi teacher.dev.4000669696.com.conf
+```
+server {
+       listen 80;
+       listen [::]:80;
 
+       server_name teacher.dev.4000669696.com;
+
+       root /vagrant/weiyuyan/teacher/public;
+       index index.php index.html;
+
+       location / {
+                try_files $uri $uri/ /index.php$is_args$query_string;
+       }
+
+       location ~ \.php$ {
+                try_files $uri = 404;
+                fastcgi_pass 127.0.0.1:9000;
+                fastcgi_index index.php;
+                fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                include fastcgi_params;
+       }
+}
+```
