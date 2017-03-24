@@ -81,6 +81,7 @@ server {
 通过浏览器访问：http://laravel-demo.com/
 ![](image/screenshot_1490242933787.png)
 
+
 vi /etc/hosts
 ```
 127.0.1.1       laravel-demo.com
