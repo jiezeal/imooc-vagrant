@@ -100,3 +100,4 @@ DocumentRoot /vagrant/laravel/public
 ![](image/screenshot_1490243301004.png)
 curl -I "http://laravel-demo.com:8080"
 
+搭建weiyuyan环境
