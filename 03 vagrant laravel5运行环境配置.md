@@ -108,6 +108,9 @@ vi /etc/hosts
 注：这里配置以后其它端请求 api 才能够成功
 
 cd /etc/nginx/sites-available/
+
+vi api.4000669696.com.conf
+
 ```
 
 ```
