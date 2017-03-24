@@ -134,3 +134,6 @@ server {
        }
 }
 ```
+
+vi teacher.dev.4000669696.com.conf
+
