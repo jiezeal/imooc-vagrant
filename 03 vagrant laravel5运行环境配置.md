@@ -110,7 +110,6 @@ vi /etc/hosts
 cd /etc/nginx/sites-available/
 
 vi api.4000669696.com.conf
-
 ```
 server {
        listen 80;
