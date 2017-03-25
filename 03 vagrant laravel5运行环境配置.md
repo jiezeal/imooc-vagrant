@@ -183,6 +183,11 @@ ln -s ../mods-available/rewrite.load
 ```
 
 cd sites-available/
+vi 000-default.conf
+```
+<VirtualHost *:80>
+```
+
 cp 000-default.conf api.4000669696.com.conf
 vi api.4000669696.com.conf
 ```
