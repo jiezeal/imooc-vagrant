@@ -160,6 +160,7 @@ server {
 ```
 其它端同上...
 
-
+apache配置
+cd /etc/apache2/
 
 
