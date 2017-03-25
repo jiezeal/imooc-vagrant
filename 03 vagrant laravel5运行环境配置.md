@@ -37,7 +37,7 @@ vi index.php
 ```
 <?php phpinfo(); ?>
 ```
-通过浏览器访问：http://localhost/
+通过浏览器访问：http://localhost/  
 ![](image/screenshot_1490241080980.png)
 
 vi /etc/apache2/ports.conf
@@ -52,7 +52,7 @@ vi 000-default.conf 将第一行改为
 <VirtualHost *:8080>
 ```
 /etc/init.d/apache2 restart
-通过浏览器访问：http://localhost:8080/
+通过浏览器访问：http://localhost:8080/  
 ![](image/screenshot_1490242653637.png)
 
 cd /etc/nginx/sites-available
