@@ -178,4 +178,9 @@ vi apache2.conf
 ```
 
 cd mods-enabled/
+```
+ln -s ../mods-available/rewrite.load
+```
+
+
 
