@@ -163,4 +163,8 @@ server {
 apache配置
 cd /etc/apache2/
 
+vi ports.conf
+```
+Listen 80
+```
 
