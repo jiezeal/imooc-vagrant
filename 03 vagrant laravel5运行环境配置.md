@@ -196,3 +196,9 @@ ServerAdmin zhulinjie_cool@126.com
 DocumentRoot /vagrant/weiyuyan/wyyapi/public
 ```
 
+vi teacher.dev.4000669696.com.conf
+```
+ServerName teacher.dev.4000669696.com
+ServerAdmin zhulinjie_cool@126.com
+DocumentRoot /vagrant/weiyuyan/teacher/public
+```
