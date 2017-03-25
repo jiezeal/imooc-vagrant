@@ -177,4 +177,5 @@ vi apache2.conf
 </Directory>
 ```
 
+cd mods-enabled/
 
