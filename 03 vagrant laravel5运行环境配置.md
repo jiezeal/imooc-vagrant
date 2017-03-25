@@ -182,5 +182,12 @@ cd mods-enabled/
 ln -s ../mods-available/rewrite.load
 ```
 
-
+cd sites-available/
+cp 000-default.conf api.4000669696.com.conf
+vi api.4000669696.com.conf
+```
+ServerName api.4000669696.com
+ServerAdmin zhulinjie_cool@126.com
+DocumentRoot /vagrant/weiyuyan/wyyapi/public
+```
 
