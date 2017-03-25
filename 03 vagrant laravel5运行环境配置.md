@@ -168,3 +168,13 @@ vi ports.conf
 Listen 80
 ```
 
+vi apache2.conf 
+```
+<Directory /vagrant/>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+</Directory>
+```
+
+
