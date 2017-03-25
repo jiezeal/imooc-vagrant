@@ -202,3 +202,4 @@ ServerName teacher.dev.4000669696.com
 ServerAdmin zhulinjie_cool@126.com
 DocumentRoot /vagrant/weiyuyan/teacher/public
 ```
+其它端同上...
