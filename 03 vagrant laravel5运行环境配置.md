@@ -213,3 +213,4 @@ config.vm.provision "shell", inline: <<-SHELL
 	/etc/init.d/apache2 stop
 SHELL
 ```
+vagrant reload --provision
