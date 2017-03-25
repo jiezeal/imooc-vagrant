@@ -206,3 +206,4 @@ DocumentRoot /vagrant/weiyuyan/teacher/public
 
 说明：
 weiyuyan为开发环境，之前apache使用的是8080端口，但由于curl在请求非80端口的时候需要增加 `curl_setopt($ch, CURLOPT_PORT, 8080)` 这个选项，因此决定apache与nginx都使用80端口，但默认只开启nginx
+
