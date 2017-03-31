@@ -42,7 +42,7 @@ php -v
 
 安装php扩展
 ```
-apt-get install php7.0-curl php7.0-gd php7.0-json php7.0-mysql php7.0-mcrypt php7.0-mbstring php7.0-zip php-codecoverage phpunit
+apt-get install php7.0-curl php7.0-gd php7.0-json php7.0-mysql php7.0-mcrypt php7.0-mbstring php7.0-zip php-codecoverage phpunit php7.0-sqlite3
 ```
 
 安装apache2的php模块
